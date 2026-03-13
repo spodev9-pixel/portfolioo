@@ -1,0 +1,136 @@
+      *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(120deg,#000428,#004e92);
+  color:white;
+}
+
+/* NAVBAR */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:10px 40px;
+  background:black;
+  border-bottom:2px solid cyan;
+  z-index:100;
+}
+
+.logo{
+  color:cyan;
+  text-shadow:0 0 10px cyan;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li{
+  margin:10px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover{
+  color:cyan;
+}
+
+/* SECTIONS */
+section{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:80px;
+}
+
+.home{
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+}
+
+.left{
+  width:40%;
+}
+
+.right img{
+  width:250px;
+  border-radius:50%;
+  box-shadow: 0 0 40px cyan, 0 0 80px blue;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  border:1px solid cyan;
+  text-decoration:none;
+  color:white;
+  box-shadow:0 0 10px cyan;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:cyan;
+  color:black;
+  box-shadow:0 0 20px cyan,0 0 40px blue;
+}
+
+/* CARD */
+.card{
+  width:500px;
+  padding:30px;
+  background:rgba(0,0,0,0.6);
+  box-shadow:0 0 20px cyan;
+  text-align:center;
+}
+
+/* SKILLS */
+.skills span{
+  margin:10px;
+  padding:10px;
+  border:1px solid cyan;
+  display:inline-block;
+}
+
+/* BOX */
+.box{
+  margin:10px;
+  padding:10px;
+  border:1px solid purple;
+}
+
+/* SOCIAL ICONS */
+.social-icons{
+  margin-top:20px;
+}
+
+.social-icons a{
+  margin-right:15px;
+  text-decoration:none;
+  color:cyan;
+  border:1px solid cyan;
+  padding:5px 10px;
+  box-shadow:0 0 5px cyan;
+  transition:0.3s;
+}
+
+.social-icons a:hover{
+  background:cyan;
+  color:black;
+  box-shadow:0 0 10px cyan,0 0 20px blue;
+}
